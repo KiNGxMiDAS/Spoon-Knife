@@ -14,8 +14,22 @@
 <!-- Feel free to change this text here -->
 <p>
   Fork me? Fork you, @octocat!
-  ..fork us <3, @KiNGxMiDAS! 
+  ..fork us <3, @KiNGxMiDAS!
+
+  Click the button to demonstrate the prompt box.
 </p>
+
+   <button onclick="myFunction()">Try it
+
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name:", "Go fork yourself!");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello, how are you today?" + person + "!";
+  }
+}
+</script>
 
 </body>
 </html>
